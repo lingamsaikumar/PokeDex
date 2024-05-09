@@ -1,0 +1,23 @@
+.pokemon-list{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.pokemon-list-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pokemon-list-header{
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ font-size: x-large;
+ letter-spacing: 10px;
+ font-weight:bolder;
+}
+.pokemon-controls button:hover{
+
+    background-color: tomato; 
+ 
+}

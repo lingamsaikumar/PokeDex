@@ -1,0 +1,33 @@
+.pokemon-wrapper{
+    display: block;
+    flex-basis:30%;
+    text-decoration: none;
+    color: black;
+}
+.pokemon{
+  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 300px;
+    max-width: 400px;
+    margin-top: 4rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.pokemon:hover{
+    background-color: burlywood;
+}
+.pokemon .pokemon-image{
+    max-height: 50%;
+    min-height: 200px;
+}
+.pokemon-controls button{
+    padding: 10px 2rem;
+    margin-left:1rem;
+    font-weight: bolder;
+    border: none;
+    background-color: salmon;
+    border-radius: 10px;
+}
