@@ -1,12 +1,13 @@
-import { useParams } from "react-router-dom";
+
 import Pokemon from '../Pokemon/Pokemon';
 import { Link } from "react-router-dom";
 import './PokemonDetails.css'
 import usePokemon from "../../hooks/usePokemon";
 
-function  PokemonDetails(){
-    const {id} = useParams();
-const [pokemon,PokemonListState]=usePokemon(id);
+// eslint-disable-next-line react/prop-types
+function  PokemonDetails({PokemonName}){
+
+const [pokemon,PokemonListState]=usePokemon(PokemonName);
 
  return  (
 <>
